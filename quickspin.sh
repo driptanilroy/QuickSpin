@@ -14,3 +14,5 @@ npm i && npm i tailwindcss axios
 echo "don't forget to configure tailwind"
 
 npm i -D prettier
+
+touch .prettierrc .env tailwind.config.js
