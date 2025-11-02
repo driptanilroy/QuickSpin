@@ -3,7 +3,7 @@ read name
 
 echo "Creating Vite app: $name"
 
-npm create vite@latest $name -- --template vue --yes && wait
+npm create vite@latest $name -- --template vue --yes --no-rolldown --no-immediate && wait
 
 cd $name
 
