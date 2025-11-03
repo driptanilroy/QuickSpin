@@ -103,5 +103,6 @@ else
 
 fi
 
+cd $name
 echo "Following packages downloaded : "
 npm list
