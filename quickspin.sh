@@ -102,3 +102,6 @@ else
   echo "GIT SETUP CANCELLED!"
 
 fi
+
+echo "Following packages downloaded : "
+npm list
